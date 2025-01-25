@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* y axis if flex direction is row*/
+  justify-content: center; /* x axis if flex direction is row*/
+  gap: 4px;
+}
+
+button {
+  width: 36px;
+  height: 36px;
+}
+
+input {
+  width: 108px;
+  height: 30px;
+  margin: 0px;
+  text-align: end;
+}
