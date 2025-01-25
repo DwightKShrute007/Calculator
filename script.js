@@ -10,6 +10,8 @@ function appendToDisplay(value) {
 
 function calculate() {
   try {
+    // TODO: remove eval func
+    console.log(display.value);
     display.value = eval(display.value);
   } catch (e) {
     display.value = "Error";
