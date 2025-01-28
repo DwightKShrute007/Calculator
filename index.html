@@ -8,35 +8,35 @@
   </head>
   <body>
     <div class="container">
-      <div>
-        <input id="display" readonly value="" type="text" />
+      <div class="row">
+        <input class="display" id="display" readonly value="" type="text" />
         <button onclick="clearDisplay()">c</button>
       </div>
-      <div>
+      <div class="row">
         <button onclick="appendToDisplay('1')">1</button>
         <button onclick="appendToDisplay('2')">2</button>
         <button onclick="appendToDisplay('3')">3</button>
         <button onclick="appendToDisplay('/')">&sol;</button>
       </div>
-      <div>
+      <div class="row">
         <button onclick="appendToDisplay('4')">4</button>
         <button onclick="appendToDisplay('5')">5</button>
         <button onclick="appendToDisplay('6')">6</button>
         <button onclick="appendToDisplay('*')">&times;</button>
       </div>
-      <div>
+      <div class="row">
         <button onclick="appendToDisplay('7')">7</button>
         <button onclick="appendToDisplay('8')">8</button>
         <button onclick="appendToDisplay('9')">9</button>
         <button onclick="appendToDisplay('-')">&#8722;</button>
       </div>
-      <div>
+      <div class="row">
         <button onclick="appendToDisplay('0')">0</button>
         <button onclick="appendToDisplay('.')">&period;</button>
         <button onclick="calculate()">&#61;</button>
         <button onclick="appendToDisplay('+')">&plus;</button>
       </div>
     </div>
-    <script src="script.js" type="module"></script>
+    <script src="script.js"></script>
   </body>
 </html>
